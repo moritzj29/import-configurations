@@ -2,8 +2,10 @@
 You'll need to edit the exported CSV before the import configuration will work.
 
 1. Convert the file to UTF-8
+    - import with different encoding may be supported in the future, see [#5084](https://github.com/firefly-iii/firefly-iii/issues/5084)
 
 2. Remove everything above the table of transactions (except the headers)
+    - will not be implemented since it objects the nature of `csv` files, see [#3059](https://github.com/firefly-iii/firefly-iii/issues/3059)
 
 ## Important
 This only works, if you are not using tags in your bank account.
